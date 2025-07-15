@@ -23,7 +23,8 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
-                 InlineKeyboardButton("ᴄʟᴏꜱᴇ", callback_data='close')]
+                 InlineKeyboardButton("ᴄʟᴏꜱᴇ", callback_data='close'),
+                 InlineKeyboardButton("Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", callback_data='href=https://t.me/+sE5BYFSoe9YxNDJl')]
             ])
         )
 
