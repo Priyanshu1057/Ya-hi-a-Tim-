@@ -37,7 +37,7 @@ BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/CodeflixSupport")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
 START_PIC = os.environ.get("START_PIC", "https://envs.sh/ifv.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/ifO.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/iau.jpg")
 
 #--------------------------------------------
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "gplinks.com")
